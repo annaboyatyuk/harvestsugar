@@ -38,9 +38,25 @@
   </div>
 
   <a href='otherpage.html'>
-  <button class='button'>other page</button>
+  <button class='button' onclick="hummingEnterpriseConversion">other page</button>
   </a>
 
+  <script type="application/javascript">
+    function hummingEnterpriseConversion() {
+      window.dotq = window.dotq || [];
+      window.dotq.push(
+      {
+      'projectId': '10000',
+      'properties': {
+      'pixelId': '10183757',
+      'qstrings': {
+      'et': 'custom',
+      'ea':'PESOCT1'
+      }
+      } } );
+    }
+  
+  </script>
 </body>
 </html>
 
